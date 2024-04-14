@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
 # MIUI Leica Camera
 $(call inherit-product-if-exists, vendor/xiaomi/psyche-miuicamera/products/miuicamera.mk)
 
+# Certification Overlay
+PRODUCT_PACKAGES += \
+    CertificationOverlay
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
