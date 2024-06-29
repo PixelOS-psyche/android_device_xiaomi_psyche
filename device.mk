@@ -25,7 +25,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     libpiex_shim
-    
+
+# MIUI Leica Camera
+$(call inherit-product-if-exists, vendor/xiaomi/psyche-miuicamera/products/miuicamera.mk)
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
