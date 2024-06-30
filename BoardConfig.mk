@@ -10,6 +10,7 @@ DEVICE_PATH := device/xiaomi/psyche
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 BUILD_BROKEN_DUP_RULES := true
+ALLOW_MISSING_DEPENDENCIES=true
 
 # Display
 TARGET_SCREEN_DENSITY := 420
