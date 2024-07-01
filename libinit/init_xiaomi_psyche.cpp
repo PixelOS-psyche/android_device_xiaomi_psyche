@@ -18,7 +18,6 @@ static const variant_info_t psyche_info = {
     .device = "psyche",
     .marketname = "Xiaomi 12X",
     .model = "2112123AG",
-    .build_fingerprint = "Xiaomi/psyche/psyche:13/RKQ1.211001.001/V816.0.3.0.TLDCNXM:user/release-keys",
     .nfc = true,
 };
 
