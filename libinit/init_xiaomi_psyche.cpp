@@ -13,6 +13,7 @@ static const variant_info_t psyche_info = {
     .sku_value = "",
 
     .mod_device = "psyche_global",
+    .name = "psyche_global",
     .brand = "Xiaomi",
     .device = "psyche",
     .marketname = "Xiaomi 12X",
