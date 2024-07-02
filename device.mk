@@ -37,6 +37,9 @@ PRODUCT_PACKAGES += \
 TARGET_HAS_UDFPS := true
 
 PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.fx.tunnel@1.0.vendor
+
+PRODUCT_PACKAGES += \
     sensors.udfps
     
 PRODUCT_COPY_FILES += \
